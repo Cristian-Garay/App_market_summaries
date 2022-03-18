@@ -1,0 +1,56 @@
+ .login-form {
+     width: 350px;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     background-color: #eeeeee;
+     border-radius: 20px;
+ }
+ 
+ .login-form-forgot {
+     float: right;
+ }
+ 
+ .ant-col-rtl .login-form-forgot {
+     float: left;
+ }
+ 
+ .login-form-button {
+     width: 80%;
+     /* margin-inline: 20px; */
+     position: absolute;
+     transform: translate(-50%, 0);
+     left: 50%;
+ }
+ 
+ .login-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+ .login-form-img {
+    width: 100%;
+ }
+
+
+ 
+ .bgLogin {
+     height: 738px;
+     width: 100%;
+     background-size: auto;
+     /* background-image: url('../../assets/img/background.jpg'); */
+ }
+
+ .login-form-welcome {
+    font-size: 25px;
+    /* padding: 20px; */
+}
+
+.login-background {
+        background-size: contain;
+        height: 1600px;
+        width: '100%';
+}
