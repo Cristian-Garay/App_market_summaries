@@ -18,8 +18,11 @@ Ejecuta la aplicación en modo desarrollador. Por lo general ocurre en el puerto
 
 **"has been blocked by CORS policy"!**
 
-Dentro del archivo /src/config.tsx existe duplicada la variable apiUrl. Cuando aparezca este error, sólo se debe ejecutar el siguiente comando en una nueva ventana de comandos: 
+Dentro del archivo /src/config.tsx existe duplicada la variable apiUrl. Cuando aparezca este error, se debe comentar el primero quedando de la siguiente forma:
 
-"lcp --proxyUrl https://bittrex.com --port 8085" 
+//export const apiUrl = "https://bittrex.com/api/v1.1/public/";
+export const apiUrl = "http://localhost:8085/proxy/api/v1.1/public/";
+
+Luego sólo se debe ejecutar en una ventana aparte de donde se ejecuta "npm start": lcp --proxyUrl https://bittrex.com --port 8085 
 
 [Referencia](https://www.npmjs.com/package/local-cors-proxy).
