@@ -22,4 +22,4 @@ Dentro del archivo config.tsx existe duplicada la variable apiUrl. Cuando aparez
 
 "lcp --proxyUrl https://bittrex.com --port 8085" 
 
-([Referencia])(https://www.npmjs.com/package/local-cors-proxy).
+[Referencia](https://www.npmjs.com/package/local-cors-proxy).
