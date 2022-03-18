@@ -25,7 +25,9 @@ Dentro del archivo /src/config.tsx existe duplicada la variable apiUrl. Cuando a
 export const apiUrl = "http://localhost:8085/proxy/api/v1.1/public/"
 
 
-Luego sólo se debe ejecutar en una ventana aparte de donde se ejecuta "npm start": 
+
+Luego sólo se debe ejecutar en una ventana aparte de donde se ejecuta "npm start":
+
 lcp --proxyUrl https://bittrex.com --port 8085 
 
 [Referencia](https://www.npmjs.com/package/local-cors-proxy).
